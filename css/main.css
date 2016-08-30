@@ -73,7 +73,9 @@
 .grupal{
 	width: 100%;
 }
-
+.vertical{
+	border-right: 1px solid black;
+}
 .lineatexto{
     border-style: solid;
     border-width: 1px;
@@ -101,7 +103,7 @@
 	position: absolute;
 	color: white;
 	bottom: 20px;
-	right: 50px;
+	right: 20px;
 	text-decoration: none;
 }
 
@@ -117,8 +119,8 @@ header nav ul li a{
 
 header nav ul li{
 	list-style: none;
-	float: left;
 	display: inline-block;
+	text-align: center;
 }
 
 .textoencima a{
@@ -129,5 +131,69 @@ hr{
 	border-top: 1px solid black;
 }
 
-
-
+/* coder detail*/
+.fotosindex{
+	width: 100%;
+	padding-top: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.coders{
+	width: 100%;
+}
+.textosimulado{
+	text-align: center;
+	margin: 5%;
+}
+.fotocircular{
+	width: 150px; 
+	height: 150px; 
+	border-radius: 100px; 
+	-webkit-border-radius: 100px; 
+	-moz-border-radius: 100px; 
+	background: url(../img/profile-1.png) no-repeat;
+	margin: auto;
+	background-size: cover;
+}
+.barrauno{
+	background-color: #909090;
+	color: white;
+	width: 100%;
+	padding: 10px;
+	margin-left: 30px;
+	text-align: left;
+}
+.barrados{
+	background-color: #909090;
+	color: white;
+	width: 100%;
+	padding: 10px;
+	margin-left: 30px;
+	text-align: left;
+}
+.barratres{
+	background-color: #909090;
+	color: white;
+	width: 100%;
+	padding: 10px;
+	margin-left: 30px;
+	text-align: left;
+}
+.portafolio{
+	width: 100%;
+}
+.fotosdetail{
+	width: 100%;
+	padding-top: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.caja{
+	margin:10px auto;
+	padding: 10px;
+	border:1px solid black;
+	text-align: center;
+}
+h2{
+	float:left;
+}
